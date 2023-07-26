@@ -1,0 +1,66 @@
+.container {
+    margin-top: 35px;
+}
+
+.firstLine,
+.secondLine {
+    color: #fff;
+    white-space: nowrap;
+    /* keep text in one line */
+    overflow: hidden;
+    /* hide text behind the cursor */
+    margin: 0.5rem auto;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.firstLine {
+    /* border-right: 2px solid rgba(17, 17, 17, 0.9); */
+    /* define animation types for text + cursor */
+    animation: typewriter_1 3s steps(21) 1s 1 normal both, first_cursor 900ms steps(21) 8;
+}
+
+.secondLine {
+    /* border-right: 2px solid rgba(17, 17, 17, 0.9); */
+    /* define animation types for text + cursor */
+    animation: typewriter_2 2s steps(13) 1s 1 normal both, second_cursor 900ms steps(15) infinite;
+    -webkit-animation-delay: 4.1s;
+    animation-delay: 4.1s;
+}
+
+@keyframes typewriter_1 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 26rem;
+    }
+}
+
+@keyframes typewriter_2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 14rem;
+    }
+}
+
+@keyframes first_cursor {
+    from {
+        border-right-color: #f1d03a;
+    }
+    to {
+        border-right-color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+@keyframes second_cursor {
+    from {
+        border-right-color: #f1d03a;
+    }
+    to {
+        border-right-color: rgba(255, 255, 255, 0.8);
+    }
+}

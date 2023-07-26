@@ -1,0 +1,36 @@
+.about {
+    color: #fff;
+    width: 475px;
+    height: 700px;
+    border-radius: 10px;
+    background-color: #f1d03a;
+    border: 23px solid #003056;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.text {
+    line-height: 27px;
+    color: #003056;
+    margin-top: 20px;
+}
+
+.goBackBtn {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003056;
+    color: #f1d03a;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin-top: 150px;
+}
+
+.goBackbtn:hover {
+    background-color: #002f56b6;
+    color: #f3cc1e;
+}

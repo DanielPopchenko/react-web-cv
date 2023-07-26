@@ -1,0 +1,29 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.leftContainer::before {
+    content: '';
+    display: block;
+    background-image: url('../../images/side-image.png');
+    width: 440px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rightContainer::before {
+    content: '';
+    display: block;
+    background-image: url('../../images/side-image-2.png');
+    width: 400px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

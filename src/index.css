@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Orbitron:wght@400;500&family=Poppins:wght@300;400&family=Press+Start+2P&family=Roboto+Mono:wght@300;400&display=swap');
+
+/* :root {
+    --orange: #fa8f04;
+} */
+
+body {
+    max-width: 1467px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #111;
+    border-style: inset;
+    border: none;
+    transition: all 0.5s;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.goBackBtn {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003056;
+    color: #f1d03a;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin-top: 150px;
+}
